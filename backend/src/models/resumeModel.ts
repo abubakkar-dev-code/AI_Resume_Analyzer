@@ -10,6 +10,10 @@ const resumeSchema = new Schema(
     title: {
       type: String,
     },
+    file:{
+      type:String,
+      required:true
+    },
     originalFileName: {
       type: String,
     },
